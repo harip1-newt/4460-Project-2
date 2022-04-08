@@ -1,0 +1,112 @@
+*
+*
+G04 PADS VX.2.8 Build Number: 19810023 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "ECE4460_PG_VersionB.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD011C,0.01*%
+%ADD057R,0.07X0.07*%
+%ADD058C,0.07*%
+%ADD061R,0.21X0.16*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name ECE4460_PG_VersionB.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name ECE4460_PG_VersionB.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name ECE4460_PG_VersionB.pcb - circuitry*
+%LPD*%
+*
+G54D10*
+G54D11*
+G01X100500Y3099500D02*
+X695500D01*
+Y2616700*
+X100500*
+Y3099500*
+G54D57*
+X418100Y2625600D03*
+X369300Y2625900D03*
+G54D58*
+X428100Y2625600D03*
+X379300Y2625900D03*
+G54D61*
+X113500Y2964450D03*
+Y2934950D03*
+X682500D03*
+Y2964450D03*
+Y2784950D03*
+Y2814450D03*
+Y2684950D03*
+Y2714450D03*
+X113500D03*
+Y2684950D03*
+Y2914450D03*
+Y2884950D03*
+Y2864450D03*
+Y2834950D03*
+Y2814450D03*
+Y2784950D03*
+Y2764450D03*
+Y2734950D03*
+X682500Y2884950D03*
+Y2914450D03*
+Y2834950D03*
+Y2864450D03*
+Y2734950D03*
+Y2764450D03*
+X0Y0D02*
+M02*
