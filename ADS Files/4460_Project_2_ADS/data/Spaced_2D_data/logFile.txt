@@ -3,62 +3,84 @@ hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
     (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
 
 
-***** Simulation started at Mon Apr 18 17:58:04 2022
-      Running on host: "ECE-2021-082"
+***** Simulation started at Fri Apr 22 09:52:56 2022
+      Running on host: "ECE-2021-121"
       In Directory: "C:\Users\hparameswaran6\OneDrive - Georgia Institute of Technology\Classes\6th Semester\ECE 4460\Project 2\4460-Project-2\ADS Files\4460_Project_2_ADS\data"
-      Process ID: 10524
+      Process ID: 16736
 
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V2':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V2
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis 'Tran1'.
+    UserValue(0.001291) < MinRecommendValue(0.000100) OR UserValue > MaxRecommendValue(0.000635) for 'H' in `V2'
+
+Warning detected by hpeesofsim during TRAN analysis 'Tran1'.
+    UserValue(0.787092) < MinRecommendValue(1.000000) OR UserValue > MaxRecommendValue(2.200000) for 'W/H' in `V2'
+
+
+    Use an adaptive sample spacing of 7.812 GHz.
 Pt DC convergence is used.
-
-    Matrix is singular (detected between nodes or branches `N__664' and `TL615.i1').
+    Matrix is singular (detected between nodes or branches `N__120' and `TL685.i4').
 Adding gmin to branches
 .    Matrix is singular (detected between nodes or branches `N__296' and `TL25.i4').
 Adding gmin to branches
 .
 
+    Matrix is singular (detected between nodes or branches `N__788' and `TL283.i3').
+Adding gmin to branches
+.    Matrix is singular (detected between nodes or branches `N__66' and `TL441.i3').
+Adding gmin to branches
+.
 
-TRAN Tran1[1] <4460_Project2_lib:Spaced_2D:schematic>   time=(0 s->1 ns)
 
-  iter = 1   RHS I= 2.390e-12 V= 9.222e-02 k fail RHS I[N__168]= 2.653e-12 (2.6x)  dV= 8.645e+03 dI= 6.856e-02 
-  iter = 2   RHS I= 2.649e-12 V= 8.715e-13  dV= 1.013e+00 dI= 8.075e-13 
-  iter = 3   RHS I= 1.125e-13 V= 5.955e-13  dV= 4.991e-02 dI= 5.054e-14 
-  iter = 4   RHS I= 1.004e-13 V= 6.442e-13  dV= 3.163e-02 dI= 4.748e-14 
-  iter = 5   RHS I= 8.640e-14 V= 6.832e-13  dV= 2.332e-02 dI= 3.916e-14 
-  iter = 6   RHS I= 6.843e-14 V= 6.127e-13  dV= 3.225e-02 dI= 4.132e-14 
-  iter = 7   RHS I= 9.848e-14 V= 7.141e-13  dV= 4.850e-02 dI= 5.303e-14 
-  iter = 8   RHS I= 7.375e-14 V= 6.303e-13  dV= 3.070e-02 dI= 4.072e-14 
-  iter = 9   RHS I= 1.118e-13 V= 6.490e-13  dV= 6.029e-02 dI= 4.787e-14 
-  iter =10   RHS I= 6.774e-14 V= 5.903e-13  dV= 2.665e-02 dI= 4.092e-14 
-  iter = 1   RHS I= 2.390e-12 V= 9.222e-02 k fail RHS I[N__168]= 2.653e-12 (2.6x)  dV= 8.645e+03 dI= 6.856e-02 
-  iter = 2   RHS I= 2.649e-12 V= 8.715e-13  dV= 1.013e+00 dI= 8.075e-13 
-  iter = 3   RHS I= 1.125e-13 V= 5.955e-13  dV= 4.991e-02 dI= 5.054e-14 
-  iter = 4   RHS I= 1.004e-13 V= 6.442e-13  dV= 3.163e-02 dI= 4.748e-14 
-  iter = 5   RHS I= 8.640e-14 V= 6.832e-13  dV= 2.332e-02 dI= 3.916e-14 
-  iter = 6   RHS I= 6.843e-14 V= 6.127e-13  dV= 3.225e-02 dI= 4.132e-14 
-  iter = 7   RHS I= 9.848e-14 V= 7.141e-13  dV= 4.850e-02 dI= 5.303e-14 
-  iter = 8   RHS I= 7.375e-14 V= 6.303e-13  dV= 3.070e-02 dI= 4.072e-14 
-  iter = 9   RHS I= 1.118e-13 V= 6.490e-13  dV= 6.029e-02 dI= 4.787e-14 
-  iter =10   RHS I= 6.774e-14 V= 5.903e-13  dV= 2.665e-02 dI= 4.092e-14 
-  iter = 1   RHS I= 2.390e-12 V= 9.222e-02 k fail RHS I[N__168]= 2.653e-12 (2.6x)  dV= 8.645e+03 dI= 6.856e-02 
-  iter = 2   RHS I= 2.649e-12 V= 8.715e-13  dV= 1.013e+00 dI= 8.075e-13 
-  iter = 3   RHS I= 1.125e-13 V= 5.955e-13  dV= 4.991e-02 dI= 5.054e-14 
-  iter = 4   RHS I= 1.004e-13 V= 6.442e-13  dV= 3.163e-02 dI= 4.748e-14 
-  iter = 5   RHS I= 8.640e-14 V= 6.832e-13  dV= 2.332e-02 dI= 3.916e-14 
-  iter = 6   RHS I= 6.843e-14 V= 6.127e-13  dV= 3.225e-02 dI= 4.132e-14 
-  iter = 7   RHS I= 9.848e-14 V= 7.141e-13  dV= 4.850e-02 dI= 5.303e-14 
-  iter = 8   RHS I= 7.375e-14 V= 6.303e-13  dV= 3.070e-02 dI= 4.072e-14 
-  iter = 9   RHS I= 1.118e-13 V= 6.490e-13  dV= 6.029e-02 dI= 4.787e-14 
-  iter =10   RHS I= 6.774e-14 V= 5.903e-13  dV= 2.665e-02 dI= 4.092e-14 
-  iter = 1   RHS I= 2.390e-12 V= 9.222e-02 k fail RHS I[N__168]= 2.653e-12 (2.6x)  dV= 8.645e+03 dI= 6.856e-02 
-  iter = 2   RHS I= 2.649e-12 V= 8.715e-13  dV= 1.013e+00 dI= 8.075e-13 
-  iter = 3   RHS I= 1.125e-13 V= 5.955e-13  dV= 4.991e-02 dI= 5.054e-14 
-  iter = 4   RHS I= 1.004e-13 V= 6.442e-13  dV= 3.163e-02 dI= 4.748e-14 
-  iter = 5   RHS I= 8.640e-14 V= 6.832e-13  dV= 2.332e-02 dI= 3.916e-14 
-  iter = 6   RHS I= 6.843e-14 V= 6.127e-13  dV= 3.225e-02 dI= 4.132e-14 
-  iter = 7   RHS I= 9.848e-14 V= 7.141e-13  dV= 4.850e-02 dI= 5.303e-14 
-  iter = 8   RHS I= 7.375e-14 V= 6.303e-13  dV= 3.070e-02 dI= 4.072e-14 
-  iter = 9   RHS I= 1.118e-13 V= 6.490e-13  dV= 6.029e-02 dI= 4.787e-14 
-  iter =10   RHS I= 6.774e-14 V= 5.903e-13  dV= 2.665e-02 dI= 4.092e-14 Error detected by hpeesofsim during TRAN analysis `Tran1'.
+TRAN Tran1[1] <4460_Project2_lib:Spaced_2D:schematic>   time=(0 s->200 ns)
+
+  iter = 1   RHS I= 2.405e-12 V= 9.198e-02  dV= 8.670e+03 dI= 6.817e-02 
+  iter = 2   RHS I= 5.445e-11 V= 9.073e-13  dV= 9.966e-01 dI= 7.700e-13 
+  iter = 3   RHS I= 5.440e-11 V= 7.228e-13  dV= 6.273e-02 dI= 5.821e-14 
+  iter = 4   RHS I= 5.440e-11 V= 6.649e-13  dV= 5.259e-02 dI= 5.025e-14 
+  iter = 5   RHS I= 5.440e-11 V= 5.984e-13  dV= 3.275e-02 dI= 5.010e-14 
+  iter = 6   RHS I= 5.440e-11 V= 6.320e-13  dV= 3.780e-02 dI= 4.859e-14 
+  iter = 7   RHS I= 5.440e-11 V= 5.819e-13  dV= 4.250e-02 dI= 5.261e-14 
+  iter = 8   RHS I= 5.440e-11 V= 5.357e-13  dV= 3.969e-02 dI= 4.707e-14 
+  iter = 9   RHS I= 5.440e-11 V= 6.959e-13  dV= 4.734e-02 dI= 5.104e-14 
+  iter =10   RHS I= 5.440e-11 V= 5.992e-13  dV= 5.557e-02 dI= 5.329e-14 
+  iter = 1   RHS I= 2.405e-12 V= 9.198e-02  dV= 8.670e+03 dI= 6.817e-02 
+  iter = 2   RHS I= 5.445e-11 V= 9.073e-13  dV= 9.966e-01 dI= 7.700e-13 
+  iter = 3   RHS I= 5.440e-11 V= 7.228e-13  dV= 6.273e-02 dI= 5.821e-14 
+  iter = 4   RHS I= 5.440e-11 V= 6.649e-13  dV= 5.259e-02 dI= 5.025e-14 
+  iter = 5   RHS I= 5.440e-11 V= 5.984e-13  dV= 3.275e-02 dI= 5.010e-14 
+  iter = 6   RHS I= 5.440e-11 V= 6.320e-13  dV= 3.780e-02 dI= 4.859e-14 
+  iter = 7   RHS I= 5.440e-11 V= 5.819e-13  dV= 4.250e-02 dI= 5.261e-14 
+  iter = 8   RHS I= 5.440e-11 V= 5.357e-13  dV= 3.969e-02 dI= 4.707e-14 
+  iter = 9   RHS I= 5.440e-11 V= 6.959e-13  dV= 4.734e-02 dI= 5.104e-14 
+  iter =10   RHS I= 5.440e-11 V= 5.992e-13  dV= 5.557e-02 dI= 5.329e-14 
+  iter = 1   RHS I= 2.405e-12 V= 9.198e-02  dV= 8.670e+03 dI= 6.817e-02 
+  iter = 2   RHS I= 5.445e-11 V= 9.073e-13  dV= 9.966e-01 dI= 7.700e-13 
+  iter = 3   RHS I= 5.440e-11 V= 7.228e-13  dV= 6.273e-02 dI= 5.821e-14 
+  iter = 4   RHS I= 5.440e-11 V= 6.649e-13  dV= 5.259e-02 dI= 5.025e-14 
+  iter = 5   RHS I= 5.440e-11 V= 5.984e-13  dV= 3.275e-02 dI= 5.010e-14 
+  iter = 6   RHS I= 5.440e-11 V= 6.320e-13  dV= 3.780e-02 dI= 4.859e-14 
+  iter = 7   RHS I= 5.440e-11 V= 5.819e-13  dV= 4.250e-02 dI= 5.261e-14 
+  iter = 8   RHS I= 5.440e-11 V= 5.357e-13  dV= 3.969e-02 dI= 4.707e-14 
+  iter = 9   RHS I= 5.440e-11 V= 6.959e-13  dV= 4.734e-02 dI= 5.104e-14 
+  iter =10   RHS I= 5.440e-11 V= 5.992e-13  dV= 5.557e-02 dI= 5.329e-14 
+  iter = 1   RHS I= 2.405e-12 V= 9.198e-02  dV= 8.670e+03 dI= 6.817e-02 
+  iter = 2   RHS I= 5.445e-11 V= 9.073e-13  dV= 9.966e-01 dI= 7.700e-13 
+  iter = 3   RHS I= 5.440e-11 V= 7.228e-13  dV= 6.273e-02 dI= 5.821e-14 
+  iter = 4   RHS I= 5.440e-11 V= 6.649e-13  dV= 5.259e-02 dI= 5.025e-14 
+  iter = 5   RHS I= 5.440e-11 V= 5.984e-13  dV= 3.275e-02 dI= 5.010e-14 
+  iter = 6   RHS I= 5.440e-11 V= 6.320e-13  dV= 3.780e-02 dI= 4.859e-14 
+  iter = 7   RHS I= 5.440e-11 V= 5.819e-13  dV= 4.250e-02 dI= 5.261e-14 
+  iter = 8   RHS I= 5.440e-11 V= 5.357e-13  dV= 3.969e-02 dI= 4.707e-14 
+  iter = 9   RHS I= 5.440e-11 V= 6.959e-13  dV= 4.734e-02 dI= 5.104e-14 
+  iter =10   RHS I= 5.440e-11 V= 5.992e-13  dV= 5.557e-02 dI= 5.329e-14 Error detected by hpeesofsim during TRAN analysis `Tran1'.
     Internal timestep 1.45519e-25 too small at time 0.00000e+00.
 
 
@@ -68,5 +90,5 @@ Simulation finished with errors.
 -------------------------------------------------------------------------------
 
 Resource usage:
-  Total stopwatch time     =     5.86 seconds.
+  Total stopwatch time     =    15.90 seconds.
 

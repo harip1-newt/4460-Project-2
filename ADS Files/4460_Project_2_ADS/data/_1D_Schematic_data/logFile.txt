@@ -1,0 +1,23 @@
+
+hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
+    (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
+
+
+***** Simulation started at Fri Apr 22 10:22:25 2022
+      Running on host: "ECE-2021-121"
+      In Directory: "C:\Users\hparameswaran6\OneDrive - Georgia Institute of Technology\Classes\6th Semester\ECE 4460\Project 2\4460-Project-2\ADS Files\4460_Project_2_ADS\data"
+      Process ID: 3028
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+Pt DC convergence is used.
+...............
+
+
+TRAN Tran1[1] <4460_Project2_lib:1D_Schematic:schematic>   time=(0 s->200 ns)
+
+
+Resource usage:
+  Total stopwatch time     =    22.41 seconds.
+
