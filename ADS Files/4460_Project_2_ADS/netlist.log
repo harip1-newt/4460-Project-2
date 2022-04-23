@@ -9,7 +9,7 @@ VtLFSR_DT:SRC2  VinPRBS 0 Vlow=0 V Vhigh=3.3 V Rate=500 MHz Delay=0 nsec Taps=bi
 R:R2  N__3 N__5 R=50 Ohm Noise=yes 
 TLIN4:TL718  VoutDriver Vin2 Vout Vin1 Z=50.0 Ohm E=130 F=500 MHz 
 R:R1  Vout 0 R=50 Ohm Noise=yes 
-TLIN4:TL719  Vin2 0 Vin1 0 Z=1.18 Ohm E=195.2 F=500 MHz 
+TLIN4:TL719  Vin2 0 Vin1 0 Z=1.48 Ohm E=194.4 F=500 MHz 
 Tran:Tran1 StartTime=0.0 nsec StopTime=200 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
 Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
 HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
@@ -38,87 +38,87 @@ OutputPlan:Tran1_Output \
 
 
 __debug_ImpLFEOff=0 
-C:C1  N__17 N__19 C=0.01 uF 
-C:C2  N__14 N__30 C=0.01 uF 
-C:C3  N__12 N__26 C=0.01 uF 
-C:C4  N__10 N__7 C=0.01 uF 
-R:R3  N__17 N__16 R=.028 Ohm Noise=yes 
-L:L1  N__16 N__24 L=0.4 nH Noise=yes  
-R:R4  N__14 N__8 R=.028 Ohm Noise=yes 
-L:L2  N__8 N__18 L=0.4 nH Noise=yes  
-R:R5  N__12 N__20 R=.028 Ohm Noise=yes 
-L:L3  N__20 N__35 L=0.4 nH Noise=yes  
-R:R6  N__10 N__22 R=.028 Ohm Noise=yes 
-L:L4  N__22 N__39 L=0.4 nH Noise=yes  
-VIA2:V4  N__40 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V3  N__36 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V2  N__32 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V1  N__28 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V5  N__78 N__19 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V6  N__78 N__30 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V7  N__78 N__26 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V8  N__78 N__7 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-L:L5  N__24 N__31 L=4.65 nH Noise=yes  
-L:L6  N__31 N__28 L=3.6 nH Noise=yes  
-L:L7  N__29 N__32 L=3.6 nH Noise=yes  
-L:L8  N__18 N__29 L=4.65 nH Noise=yes  
-L:L9  N__34 N__36 L=3.6 nH Noise=yes  
-L:L10  N__35 N__34 L=4.65 nH Noise=yes  
-L:L11  N__38 N__40 L=3.6 nH Noise=yes  
-L:L12  N__39 N__38 L=4.65 nH Noise=yes  
-R:R7  N__33 N__11 R=.028 Ohm Noise=yes 
-C:C5  N__33 N__13 C=0.01 uF 
-L:L13  N__23 N__37 L=3.6 nH Noise=yes  
-L:L14  N__15 N__23 L=4.65 nH Noise=yes  
-L:L15  N__11 N__15 L=0.4 nH Noise=yes  
-VIA2:V9  N__78 N__13 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V10  N__37 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-R:R8  N__27 N__43 R=.028 Ohm Noise=yes 
-C:C6  N__27 N__41 C=0.01 uF 
-L:L16  N__42 N__21 L=3.6 nH Noise=yes  
-L:L17  N__44 N__42 L=4.65 nH Noise=yes  
-L:L18  N__43 N__44 L=0.4 nH Noise=yes  
-VIA2:V11  N__78 N__41 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V12  N__21 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-R:R9  N__46 N__50 R=.028 Ohm Noise=yes 
-C:C7  N__46 N__48 C=0.01 uF 
-L:L19  N__49 N__47 L=3.6 nH Noise=yes  
-L:L20  N__51 N__49 L=4.65 nH Noise=yes  
-L:L21  N__50 N__51 L=0.4 nH Noise=yes  
-VIA2:V13  N__78 N__48 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
-VIA2:V14  N__47 N__52 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
-R:R10  N__72 N__71 R=.028 Ohm Noise=yes 
-R:R11  N__65 N__59 R=.028 Ohm Noise=yes 
-R:R12  N__61 N__60 R=.028 Ohm Noise=yes 
-R:R13  N__62 N__63 R=.028 Ohm Noise=yes 
-R:R14  N__83 N__77 R=.028 Ohm Noise=yes 
-R:R15  N__82 N__74 R=.028 Ohm Noise=yes 
 R:R16  N__86 N__88 R=.028 Ohm Noise=yes 
-C:C8  N__62 N__1 C=0.01 uF 
-C:C9  N__65 N__1 C=0.01 uF 
-C:C10  N__72 N__1 C=0.01 uF 
-C:C11  N__83 N__1 C=0.01 uF 
-C:C12  N__82 N__1 C=0.01 uF 
-C:C13  N__86 N__1 C=0.01 uF 
-C:C14  N__61 N__1 C=0.01 uF 
+R:R15  N__82 N__74 R=.028 Ohm Noise=yes 
+R:R14  N__83 N__77 R=.028 Ohm Noise=yes 
+R:R13  N__62 N__63 R=.028 Ohm Noise=yes 
+R:R12  N__61 N__60 R=.028 Ohm Noise=yes 
+R:R11  N__65 N__59 R=.028 Ohm Noise=yes 
+R:R10  N__72 N__71 R=.028 Ohm Noise=yes 
+C:C8  N__62 N__78 C=0.01 uF 
+C:C9  N__65 N__78 C=0.01 uF 
+C:C10  N__72 N__78 C=0.01 uF 
+C:C11  N__83 N__78 C=0.01 uF 
+C:C12  N__82 N__78 C=0.01 uF 
+C:C13  N__86 N__78 C=0.01 uF 
+C:C14  N__61 N__78 C=0.01 uF 
 L:L22  N__68 N__54 L=4.65 nH Noise=yes  
-L:L23  N__54 N__94 L=3.6 nH Noise=yes  
+L:L23  N__54 0 L=3.6 nH Noise=yes  
 L:L24  N__66 N__55 L=4.65 nH Noise=yes  
-L:L25  N__55 N__94 L=3.6 nH Noise=yes  
-L:L26  N__58 N__94 L=3.6 nH Noise=yes  
+L:L25  N__55 0 L=3.6 nH Noise=yes  
+L:L26  N__58 0 L=3.6 nH Noise=yes  
 L:L27  N__67 N__58 L=4.65 nH Noise=yes  
 L:L28  N__59 N__68 L=0.4 nH Noise=yes  
 L:L29  N__60 N__66 L=0.4 nH Noise=yes  
 L:L30  N__63 N__67 L=0.4 nH Noise=yes  
 L:L31  N__75 N__76 L=4.65 nH Noise=yes  
-L:L32  N__76 N__94 L=3.6 nH Noise=yes  
+L:L32  N__76 0 L=3.6 nH Noise=yes  
 L:L33  N__77 N__80 L=0.4 nH Noise=yes  
 L:L34  N__80 N__81 L=4.65 nH Noise=yes  
-L:L35  N__81 N__94 L=3.6 nH Noise=yes  
+L:L35  N__81 0 L=3.6 nH Noise=yes  
 L:L36  N__73 N__69 L=4.65 nH Noise=yes  
-L:L37  N__69 N__94 L=3.6 nH Noise=yes  
+L:L37  N__69 0 L=3.6 nH Noise=yes  
 L:L38  N__71 N__73 L=0.4 nH Noise=yes  
 L:L39  N__74 N__75 L=0.4 nH Noise=yes  
-L:L40  N__85 N__94 L=3.6 nH Noise=yes  
+L:L40  N__85 0 L=3.6 nH Noise=yes  
 L:L41  N__87 N__85 L=4.65 nH Noise=yes  
 L:L42  N__88 N__87 L=0.4 nH Noise=yes  
+R:R9  N__19 N__23 R=.028 Ohm Noise=yes 
+R:R8  N__16 N__20 R=.028 Ohm Noise=yes 
+R:R7  N__17 N__21 R=.028 Ohm Noise=yes 
+R:R6  N__18 N__22 R=.028 Ohm Noise=yes 
+R:R5  N__24 N__26 R=.028 Ohm Noise=yes 
+R:R4  N__27 N__28 R=.028 Ohm Noise=yes 
+R:R3  N__29 N__30 R=.028 Ohm Noise=yes 
+C:C7  N__19 N__15 C=0.01 uF 
+C:C6  N__16 N__14 C=0.01 uF 
+C:C5  N__17 N__13 C=0.01 uF 
+C:C4  N__18 N__12 C=0.01 uF 
+C:C3  N__24 N__11 C=0.01 uF 
+C:C2  N__27 N__10 C=0.01 uF 
+C:C1  N__29 N__8 C=0.01 uF 
+L:L1  N__30 N__36 L=0.4 nH Noise=yes  
+L:L2  N__28 N__38 L=0.4 nH Noise=yes  
+L:L3  N__26 N__39 L=0.4 nH Noise=yes  
+L:L5  N__36 N__37 L=4.65 nH Noise=yes  
+L:L6  N__37 N__49 L=3.6 nH Noise=yes  
+L:L7  N__41 N__50 L=3.6 nH Noise=yes  
+L:L8  N__38 N__41 L=4.65 nH Noise=yes  
+L:L9  N__42 N__51 L=3.6 nH Noise=yes  
+L:L10  N__39 N__42 L=4.65 nH Noise=yes  
+L:L17  N__33 N__32 L=4.65 nH Noise=yes  
+L:L16  N__32 N__48 L=3.6 nH Noise=yes  
+L:L15  N__21 N__44 L=0.4 nH Noise=yes  
+L:L14  N__44 N__46 L=4.65 nH Noise=yes  
+L:L13  N__46 N__1 L=3.6 nH Noise=yes  
+L:L12  N__40 N__43 L=4.65 nH Noise=yes  
+L:L11  N__43 N__52 L=3.6 nH Noise=yes  
+L:L4  N__22 N__40 L=0.4 nH Noise=yes  
+L:L18  N__20 N__33 L=0.4 nH Noise=yes  
+L:L19  N__34 N__47 L=3.6 nH Noise=yes  
+L:L20  N__35 N__34 L=4.65 nH Noise=yes  
+L:L21  N__23 N__35 L=0.4 nH Noise=yes  
+VIA2:V14  N__47 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V13  N__94 N__15 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V12  N__48 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V11  N__94 N__14 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V10  N__1 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V9  N__94 N__13 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V8  N__94 N__12 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V7  N__94 N__11 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V6  N__94 N__10 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V5  N__94 N__8 D=15 mil H=9.45 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V1  N__49 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V2  N__50 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V3  N__51 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
+VIA2:V4  N__52 0 D=15 mil H=50.82 mil T=0.00375 mm Rho=0.71 W=40 mil 
