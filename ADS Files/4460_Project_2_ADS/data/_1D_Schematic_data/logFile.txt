@@ -3,14 +3,63 @@ hpeesofsim (*) 550.shp Jul 24 2021, MINT version 5
     (64-bit windows built: Sat Jul 24, 2021 16:09:49 +0000)
 
 
-***** Simulation started at Fri Apr 22 10:22:25 2022
+***** Simulation started at Fri Apr 22 11:48:05 2022
       Running on host: "ECE-2021-121"
       In Directory: "C:\Users\hparameswaran6\OneDrive - Georgia Institute of Technology\Classes\6th Semester\ECE 4460\Project 2\4460-Project-2\ADS Files\4460_Project_2_ADS\data"
-      Process ID: 3028
+      Process ID: 10700
 
 Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 3
+    Number of nodes with only one device attached (topology corrected): 7
+    Number of nodes with no DC path to ground (topology corrected): 4
 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V8':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V8
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V7':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V7
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V6':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V6
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V5':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V5
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V4':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V4
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V3':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V3
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V2':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V2
+    Characterizing to 500 GHz 
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Component `V1':
+       No ImpMaxFreq is given, and maximum source bandwidth is zero. 
+
+COMPONENT : V1
+    Characterizing to 500 GHz 
 Pt DC convergence is used.
 ...............
 
@@ -19,5 +68,5 @@ TRAN Tran1[1] <4460_Project2_lib:1D_Schematic:schematic>   time=(0 s->200 ns)
 
 
 Resource usage:
-  Total stopwatch time     =    22.41 seconds.
+  Total stopwatch time     =    25.99 seconds.
 
