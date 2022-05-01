@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hparameswaran6
+HostName                       ECE-2021-042.ad.gatech.edu
+ProcessIdentifier              6200
+ProcessCreationTime_UTC        1651172378
+ProcessCreationTime_Readable   Thu Apr 28 14:59:38 2022 Eastern Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\hparameswaran6\OneDrive - Georgia Institute of Technology\Classes\6th Semester\ECE 4460\Project 2\4460-Project-2\ADS Files\4460_Project_2_ADS\4460_Project2_lib\1%D_%P%D%N\schematic\sch.oa.cdslck
+TimeEditLocked                 Thu Apr 28 15:01:46 2022 Eastern Daylight Time
